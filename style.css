@@ -456,10 +456,23 @@ textarea{
    margin-top: 1em;
 }
 
-
-
-
-
+.send_btn{
+    width: 100%;
+    padding: .7em 0;
+    margin-block-start: 1em;
+    background: #33AADD;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: none;
+}
+#contact_form-status{
+    padding: 1em;
+    background: lightgreen;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+}
 @keyframes slideIn {
     0%{
        transform: scale(0);
