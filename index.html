@@ -90,7 +90,7 @@
         </div>
         <div class="container">
             <div class="grid skill_grid">
-                <div class="grid_item">
+                <div class="grid_item html_grid">
                     <img src="assets/html-5-svgrepo-com.svg" alt="" class="grid_img">
                     <div class="desc">
                         <div class="skill">
@@ -278,10 +278,12 @@
                 <div class="contact_form">
                     <form action="" id="contact_form">
                         <div class="input_fields row">
-                            <input type="text" placeholder="Name">
-                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Name" name="name" id="name_input" required>
+                            <input type="email" placeholder="Email" name="email" id="email_input" required>
                         </div>
-                        <textarea name="" id=""></textarea>
+                        <textarea name="message" id="message_input" placeholder="Get in touch" required ></textarea>
+                        <input type="submit" value="Send" class="send_btn" >
+                        <div id="contact_form-status"></div>
                     </form>
                 </div>
             </div>
