@@ -26,6 +26,7 @@ fetch(event.target.action, {
         'Accept': 'application/json'
     }
 }).then(response => {
+    status.style.display = 'block';
     if (response.ok) {
     status.innerHTML = "Thanks for your submission!";
     form.reset()
@@ -41,5 +42,6 @@ fetch(event.target.action, {
 }).catch(error => {
     status.innerHTML = "Oops! There was a problem submitting your form"
 });
+     setTimeout( ()=> {status.style.display = 'none'}, 5000);
 }
 form.addEventListener("submit", handleSubmit)
