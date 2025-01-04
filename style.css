@@ -46,7 +46,18 @@ header{
     background-color:  #f3f5fa;
 
 }
+.skeleton{
+    animation: skeleton-loading .5s ease infinite alternate;
+}
 
+@keyframes skeleton-loading {
+    from{
+        background-color: #E5E4E2;
+    }
+    to{
+        background-color: #D3D3D3;
+    }
+}
 .visible{
     display: flex;
     justify-content: space-between;
