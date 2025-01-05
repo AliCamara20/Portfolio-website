@@ -104,7 +104,7 @@ header{
 }
 
 .nav-visible{
-    height: 100vh;
+    height: auto;
     visibility: visible;
     position: relative;
     transition: .5s ease;
@@ -127,7 +127,7 @@ header{
 }
 
 .nav-visible .nav_item +   .nav_item{
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
 
@@ -143,23 +143,7 @@ header{
 }
 
 
-.nav_link::after{
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -5px;
-    width: 0;
-    height: 3px;
-    background-color: dodgerblue;
-    border-radius: 1000px;
-    transition: .5s ease;
 
-}
-
-.nav_link:hover:not(.nav_link--button)::after{
-    width: 100%;
-}
 
 .hero{
     padding: 140px 0;
