@@ -278,6 +278,15 @@ header{
     z-index: 90;
 
 }
+.real_estate{
+    order:1;
+}
+.law_firm{
+    order:2;
+}
+.dashboard{
+    order: 3;
+}
 
 .project > * {
     grid-column: 1 / -1;
