@@ -280,12 +280,15 @@ header{
 }
 .real_estate{
     grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 .law_firm{
     grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 .dashboard{
     grid-column: 3 / 4;
+    grid-row: 1 / 2;
 }
 
 .project > * {
